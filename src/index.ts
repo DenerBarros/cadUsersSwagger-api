@@ -2,7 +2,6 @@ import express from "express";
 import swaggerUi from "swagger-ui-express";
 
 import { usersRoutes } from "./routes/users.routes";
-// eslint-disable-next-line import/no-unresolved
 import swaggerJSON from "./swagger.json";
 
 const app = express();
